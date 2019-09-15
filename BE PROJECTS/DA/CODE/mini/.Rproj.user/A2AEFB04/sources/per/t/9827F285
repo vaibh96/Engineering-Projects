@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1538738194627.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "9827F285",
+    "lastKnownWriteTime" : 31244173393002613,
+    "last_content_update" : 1538738194627,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "id" : "03101deca41c45f4838fbb7abcc391f7",
+        "name" : "creditnet",
+        "title" : "creditnet"
+    },
+    "relative_order" : 8,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "object_explorer"
+}

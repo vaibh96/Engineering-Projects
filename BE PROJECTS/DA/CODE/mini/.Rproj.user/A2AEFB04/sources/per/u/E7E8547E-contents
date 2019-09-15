@@ -1,0 +1,5 @@
+car <-read.csv("car.csv",TRUE,",")
+testset <- car[801:1436, ]
+
+trainset <- car[1:800, ]
+creditnet <- neuralnet(Price~ Age_08_04 + KM + HP + cc + Doors + ABS + Weight + Automatic_airco + Boardcomputer + CD_Player + Central_Lock + Powered_Windows + Quarterly_Tax + Mfr_Guarantee,trainset, hidden = 5,rep=10,lifesign = "full",linear.output = FALSE, threshold = 0.003,algorithm = "backprop",learningrate = 0.01,act.fct = 'logistic',stepmax = 100000)

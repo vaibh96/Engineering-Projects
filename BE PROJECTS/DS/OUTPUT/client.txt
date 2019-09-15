@@ -1,0 +1,65 @@
+
+C:\Users\DELL\Desktop\DS\P\C>javac Client.java
+
+C:\Users\DELL\Desktop\DS\P\C>java Client
+
+
+Please provide your details to Login
+Enter your name:
+vaibhav gole
+Enter city:
+Mumbai
+You have successfully logged in. Enjoy shopping
+1.Show List of Hospital:
+2.Admit
+3.Discharge
+4.Show details
+5.Log Out
+Enter your choice(i.e 1 or 2 or 3 or 4 or 5)
+1
+0:Kokilaben Hospital------>    No. of gward----->20 No. of special ward----->10 No. of icu----->5
+1:Nanavati Hospital------>    No. of gward----->20 No. of special ward----->10 No. of icu----->5
+2:Lilavati Hospital------>    No. of gward----->20 No. of special ward----->10 No. of icu----->5
+3:Fortis Hospital------>    No. of gward----->20 No. of special ward----->10 No. of icu----->5
+Enter your choice(i.e 1 or 2 or 3 or 4 or 5)
+2
+Hospital where the patient wants to be admitted(Enter hospital serial no.(i.e 0 or 1 or 2 or 3 or 4 or 5)??
+0
+Enter the type of room (The serial number of room type
+1.General Ward
+2.Special Ward
+3.ICU
+3
+
+Enter your choice(i.e 1 or 2 or 3 or 4 or 5)
+4
+Name: vaibhav gole
+City: Mumbai
+Name: Kokilaben Hospital--->ICU 1
+Enter your choice(i.e 1 or 2 or 3 or 4 or 5)
+3
+Enter the hospital from where the patient has to be discharged(Enter hospital serial no.)...
+0
+Enter the type of room (The serial number of room type
+1.General Ward
+2.Special Ward
+3.ICU
+3
+
+Enter your choice(i.e 1 or 2 or 3 or 4 or 5)
+4
+Name: vaibhav gole
+City: Mumbai
+Enter your choice(i.e 1 or 2 or 3 or 4 or 5)
+3
+Enter the hospital from where the patient has to be discharged(Enter hospital serial no.)...
+0
+Enter the type of room (The serial number of room type
+1.General Ward
+2.Special Ward
+3.ICU
+3
+Not admitted
+Enter your choice(i.e 1 or 2 or 3 or 4 or 5)
+5
+vaibhav goleLogging out

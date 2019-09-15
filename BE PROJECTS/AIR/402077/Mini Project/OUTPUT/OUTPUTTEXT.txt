@@ -1,0 +1,193 @@
+(16 ms) yes
+| ?- connect4.
+  A B C D E F G
+6 - - - - - - - 
+5 - - - - - - - 
+4 - - - - - - - 
+3 - - - - - - - 
+2 - - - - - - - 
+1 - - - - - - - 
+
+Column: A
+  A B C D E F G
+6 - - - - - - - 
+5 - - - - - - - 
+4 - - - - - - - 
+3 - - - - - - - 
+2 - - - - - - - 
+1 X - - - - - - 
+
+machine: A
+  A B C D E F G
+6 - - - - - - - 
+5 - - - - - - - 
+4 - - - - - - - 
+3 - - - - - - - 
+2 O - - - - - - 
+1 X - - - - - - 
+
+Column: B
+  A B C D E F G
+6 - - - - - - - 
+5 - - - - - - - 
+4 - - - - - - - 
+3 - - - - - - - 
+2 O - - - - - - 
+1 X X - - - - - 
+
+machine: A
+  A B C D E F G
+6 - - - - - - - 
+5 - - - - - - - 
+4 - - - - - - - 
+3 O - - - - - - 
+2 O - - - - - - 
+1 X X - - - - - 
+
+Column: C
+  A B C D E F G
+6 - - - - - - - 
+5 - - - - - - - 
+4 - - - - - - - 
+3 O - - - - - - 
+2 O - - - - - - 
+1 X X X - - - - 
+
+machine: D
+  A B C D E F G
+6 - - - - - - - 
+5 - - - - - - - 
+4 - - - - - - - 
+3 O - - - - - - 
+2 O - - - - - - 
+1 X X X O - - - 
+
+Column: B
+  A B C D E F G
+6 - - - - - - - 
+5 - - - - - - - 
+4 - - - - - - - 
+3 O - - - - - - 
+2 O X - - - - - 
+1 X X X O - - - 
+
+machine: A
+  A B C D E F G
+6 - - - - - - - 
+5 - - - - - - - 
+4 O - - - - - - 
+3 O - - - - - - 
+2 O X - - - - - 
+1 X X X O - - - 
+
+Column: A
+  A B C D E F G
+6 - - - - - - - 
+5 X - - - - - - 
+4 O - - - - - - 
+3 O - - - - - - 
+2 O X - - - - - 
+1 X X X O - - - 
+
+machine: B
+  A B C D E F G
+6 - - - - - - - 
+5 X - - - - - - 
+4 O - - - - - - 
+3 O O - - - - - 
+2 O X - - - - - 
+1 X X X O - - - 
+
+Column: C
+  A B C D E F G
+6 - - - - - - - 
+5 X - - - - - - 
+4 O - - - - - - 
+3 O O - - - - - 
+2 O X X - - - - 
+1 X X X O - - - 
+
+machine: B
+  A B C D E F G
+6 - - - - - - - 
+5 X - - - - - - 
+4 O O - - - - - 
+3 O O - - - - - 
+2 O X X - - - - 
+1 X X X O - - - 
+
+Column: D
+  A B C D E F G
+6 - - - - - - - 
+5 X - - - - - - 
+4 O O - - - - - 
+3 O O - - - - - 
+2 O X X X - - - 
+1 X X X O - - - 
+
+machine: B
+  A B C D E F G
+6 - - - - - - - 
+5 X O - - - - - 
+4 O O - - - - - 
+3 O O - - - - - 
+2 O X X X - - - 
+1 X X X O - - - 
+
+Column: B
+  A B C D E F G
+6 - X - - - - - 
+5 X O - - - - - 
+4 O O - - - - - 
+3 O O - - - - - 
+2 O X X X - - - 
+1 X X X O - - - 
+
+machine: C
+  A B C D E F G
+6 - X - - - - - 
+5 X O - - - - - 
+4 O O - - - - - 
+3 O O O - - - - 
+2 O X X X - - - 
+1 X X X O - - - 
+
+Column: D
+  A B C D E F G
+6 - X - - - - - 
+5 X O - - - - - 
+4 O O - - - - - 
+3 O O O X - - - 
+2 O X X X - - - 
+1 X X X O - - - 
+
+machine: C
+  A B C D E F G
+6 - X - - - - - 
+5 X O - - - - - 
+4 O O O - - - - 
+3 O O O X - - - 
+2 O X X X - - - 
+1 X X X O - - - 
+
+Column: D
+  A B C D E F G
+6 - X - - - - - 
+5 X O - - - - - 
+4 O O O X - - - 
+3 O O O X - - - 
+2 O X X X - - - 
+1 X X X O - - - 
+
+machine: D
+  A B C D E F G
+6 - X - - - - - 
+5 X O - O - - - 
+4 O O O X - - - 
+3 O O O X - - - 
+2 O X X X - - - 
+1 X X X O - - - 
+Machine wins!
+
+(235 ms) yes
+| ?- 
